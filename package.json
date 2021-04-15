@@ -1,0 +1,27 @@
+{
+  "name": "amiconsult-api",
+  "version": "1.0.0",
+  "description": "Amiconsult backend coding challenge",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thomaspietschmann/amiconsult-api.git"
+  },
+  "author": "Thomas Pietschmann",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thomaspietschmann/amiconsult-api/issues"
+  },
+  "homepage": "https://github.com/thomaspietschmann/amiconsult-api#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-mongo-sanitize": "^2.0.2",
+    "mongoose": "^5.12.3",
+    "xss-clean": "^0.1.1"
+  }
+}
