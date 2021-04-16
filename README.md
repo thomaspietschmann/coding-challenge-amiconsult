@@ -1,7 +1,6 @@
 # amiconsult-api
 
 The API uses a local mongodb database, please see config.env.
-All IDs are mongodb IDs. (document._id)
 
 The additional endpoint POST rest/users/
 accepts an object with „name“ and „token“ to create a user.
